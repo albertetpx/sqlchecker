@@ -1,0 +1,17 @@
+Calcula el nombre y apellidos (en una sola columna: 'nombre apellido1 apellido2') del empleado que va primero alfabéticamente (en ese formato).
+Calcula el nombre y presupuesto del departamento con mayor presupuesto.
+Calcula el nombre y déficit del departamento con mayor déficit (gastos-presupuesto).
+Calcula el nombre y superávit del departamento con mayor superávit.
+Calcula la suma del presupuesto de todos los departamentos.
+Calcula el valor mínimo, el valor mdedio y el valor máximo del presupuesto de todos los departamentos. El valor medio debe tener dos posiciones decimales.
+Calcula el número total de empleados que hay en la tabla empleado.
+Calcula el número de empleados que no tienen NULL en su segundo apellido.
+Calcula el número de empleados que hay en cada departamento. Tienes que devolver dos columnas, una con el código del departamento y otra con el número de empleados que tiene asignados.
+Misma consulta exterior, pero excluyendo los empleados que no tienen asignado ningún departamento.
+Calcula el código de los departamentos que tienen más de 2 empleados. El resultado debe tener dos columnas, una con el código del departamento y otra con el número de empleados que tiene asignados. Excluye los empleados que no tienen asignado ningún departamento.
+Calcula el número de empleados que trabajan en cada uno de los departamentos, sin contar los empleados que tienen alguno de sus apellidos a NULL. El resultado debe tener dos columnas, una con el código del departamento y otra con el número de empleados que tiene asignados. Excluye los empleados que no tienen asignado ningún departamento.
+Calcula la lista de empleados junto al nombre del departamento en el que trabajan. Muestra 4 columnas: nombre, apellido1, apellido2, nombre del departamento.
+Calcula la lista de empleados junto al nombre del departamento en el que trabajan. Muestra 4 columnas: nombre, apellido1, apellido2, nombre del departamento. Excluye los empleados que tengan a NULL alguno de sus apellidos.
+Calcula la lista de empleados junto al nombre del departamento en el que trabajan. Muestra 4 columnas: nombre, apellido1, apellido2, nombre del departamento. Excluye los empleados de Recursos Humanos.
+Calcula el número de empleados que trabajan en cada uno de los departamentos. El resultado debe tener dos columnas, una con el nombre del departamento y otra con el número de empleados que tiene asignados. Ordena alfabéticamente por el nombre de departamento.
+Calcula el número de empleados que trabajan en cada uno de los departamentos. El resultado debe tener dos columnas, una con el nombre del departamento y otra con el número de empleados que tiene asignados. Excluye del resultado los departamentos con 1 sólo empleado. Ordena alfabéticamente por el nombre de departamento.

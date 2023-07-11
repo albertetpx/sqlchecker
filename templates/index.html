@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>SQL Checker</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+
+<body>
+    <header>
+        <h1>SQL CHECKER (Beta)</h1>
+    </header>
+    <main>
+        <article id="ACmenu">
+            <section class="noncollapsable">
+                <a href="{{url_for('showQueriesAC1')}}">UF2 - Pràctica AC1</a>
+            </section>
+            <section class="noncollapsable">
+                <a href="{{url_for('showQueriesAC2')}}">UF2 - Pràctica AC2</a>
+            </section>
+            <section class="noncollapsable">
+                <a href="{{url_for('showQueriesAC3')}}">UF2 - Pràctica AC3</a>
+            </section>
+            <section class="noncollapsable">
+                <a href="{{url_for('showQueriesAC4')}}">UF2 - Pràctica AC4</a>
+            </section>
+            <section class="noncollapsable">
+                <a href="{{url_for('showQueriesAC5')}}">UF2 - Pràctica AC5 (competi edition&trade;)</a>
+            </section>
+        </article>
+    </main>
+
+    <footer>
+        <p>By Albert Guardiola @ ETP Xavier 2022</p>
+    </footer>
+</body>
+<script src="{{ url_for('static', filename='sqlchecker.js') }}"></script>
+
+</html>

@@ -1,0 +1,161 @@
+/* CSS Reset */
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: Verdana;
+}
+
+/* Layout */
+
+body {
+    display: grid;
+    grid:
+        "header" auto "main" 1fr "footer" auto / 1fr;
+    gap: 0px;
+}
+
+/* Header */
+
+header {
+    grid-area: header;
+    background-color: #310A31;
+    width: 100vw;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+header h1 {
+    color: #A7CAB1;
+    font-size: 25px;
+    padding: 5px;
+}
+
+/* Main */
+
+main{
+    background-color: #F4ECD6;
+    width: 100vw;
+}
+
+/* Query list */
+
+article{
+    grid-area: main;
+    background-color: #F4ECD6;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-items: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+article section.noncollapsable{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    width: 90%;
+    padding: 5px;
+}
+
+article section.noncollapsable p{
+    font-size: 18px;
+    width: 35%; 
+}
+
+#ACmenu {
+    align-items: center;
+}
+
+/* Test results */
+
+article section.collapsable{
+    width: 80%;
+    height: 50vh;
+    background-color: white;
+    display: none;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+article section.collapsable div.resultTable{
+    width: 45%;
+    border: solid 2px black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    overflow: scroll;
+}
+
+article section.collapsable div.resultTable table, td, th{
+    border: solid black 1px;
+    border-collapse: collapse;
+}
+
+/* Test controls */
+
+button.queryButton{
+    background-color: #A7CAB1;
+    border-radius: 5px;
+    height: 5vh;
+    background-color: #847996;
+    color: #F4ECD6;
+    text-align: center;
+    margin-left: 10px;
+}
+
+button.queryButton:hover{
+    background-color: #A7CAB1;
+    border-radius: 5px;
+    height: 5vh;
+    background-color: #F4ECD6;
+    color: #847996;
+    text-align: center;
+    margin-left: 10px;
+}
+
+button.queryButton:active{
+    background-color: #A7CAB1;
+    border-radius: 5px;
+    height: 5vh;
+    background-color: #F4ECD6;
+    color: #847996;
+    text-align: center;
+    margin-left: 10px;
+    text-decoration: underline;
+}
+
+article img{
+    height: 5vh;
+}
+
+article img:hover{
+    cursor: pointer;
+    transform: skew(-15deg);
+}
+
+input[type="number"]{
+    width: 30px;    
+    background-color: lightgrey;
+}
+
+/* Footer */
+
+footer {
+    grid-area: footer;
+    background-color: #847996;
+    text-align: center;
+}
+
+footer p{
+    color: #A7CAB1;
+    font-size: 15px;
+    padding: 5px;
+}

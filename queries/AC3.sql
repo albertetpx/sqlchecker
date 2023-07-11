@@ -1,0 +1,17 @@
+select concat_ws(' ', nombre, apellido1, apellido2) as "Nombre" from empleado order by Nombre asc limit 1;
+select nombre, presupuesto from departamento order by presupuesto desc limit 1;
+select nombre, (gastos-presupuesto) as "Déficit" from departamento order by Déficit desc limit 1;
+select nombre, (presupuesto-gastos) as "Superávit" from departamento order by Superávit desc limit 1;
+select sum(presupuesto) from departamento;
+select min(presupuesto), round(avg(presupuesto),2), max(presupuesto) from departamento;
+select count(codigo) from empleado;
+select count(codigo) from empleado where apellido2 is not null;
+select codigo_departamento, count(codigo) from empleado group by codigo_departamento;
+select codigo_departamento, count(codigo) from empleado where codigo_departamento is not null group by codigo_departamento;
+select codigo_departamento, count(codigo) from empleado where codigo_departamento is not null group by codigo_departamento having count(codigo) > 2;
+select codigo_departamento, count(codigo) from empleado where codigo_departamento is not null and apellido1 is not null and apellido2 is not null group by codigo_departamento;
+select e.nombre, e.apellido1, e.apellido2, d.nombre from empleado e join departamento d on e.codigo_departamento = d.codigo;
+select e.nombre, e.apellido1, e.apellido2, d.nombre from empleado e join departamento d on e.codigo_departamento = d.codigo where e.apellido1 is not null and e.apellido2 is not null;
+select e.nombre, e.apellido1, e.apellido2, d.nombre from empleado e join departamento d on e.codigo_departamento = d.codigo where d.nombre not like "Recursos Humanos";
+select d.nombre as "Departamento", count(e.codigo) as "Empleados" from departamento d join empleado e on d.codigo = e.codigo_departamento group by Departamento order by Departamento asc;
+select d.nombre as "Departamento", count(e.codigo) as "Empleados" from departamento d join empleado e on d.codigo = e.codigo_departamento group by Departamento having Empleados > 1 order by Departamento asc;

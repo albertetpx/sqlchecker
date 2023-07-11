@@ -1,0 +1,36 @@
+Lista el nombre de todos los productos que hay en la tabla producto. 
+Lista el nombre y el precio de todos los productos de la tabla producto. 
+Lista todo el contenido de la tabla producto. 
+Lista el nombre de los productos, su precio en euros y su precio en dólares estadounidenses (USD). Utiliza los siguientes alias para las columnas: “nombre de producto”, “euros”, “dólares”. Considera que el precio que figura en la tabla producto está en euros. Utiliza el ratio de cambio 1 euro = 0.98 dólares. No redondees.
+Lista los nombres y los precios de todos los productos de la tabla producto, convirtiendo los nombres a mayúscula. 
+Lista los nombres y los precios de todos los productos de la tabla producto, convirtiendo los nombres a minúscula. 
+Lista el nombre de todos los fabricantes en una columna, y en otra columna lista en mayúsculas los dos primeros caracteres del nombre del fabricante, en mayúsculas.
+Lista los nombres y los precios de todos los productos de la tabla producto, redondeando el valor del precio a una posición decimal.
+Lista los nombres y los precios de todos los productos de la tabla producto, truncando el valor del precio para mostrarlo sin ninguna cifra decimal. 
+Lista el código de los fabricantes que tienen productos en la tabla producto, sin eliminar repeticiones.
+Lista el código de los fabricantes que tienen productos en la tabla producto, eliminando los códigos que aparecen repetidos.
+Lista los nombres de los fabricantes ordenados de forma ascendente. 
+Lista los nombres de los fabricantes ordenados de forma descendente. 
+Lista los nombres y precios de los productos ordenados en primer lugar por el nombre (de forma ascendente) y en segundo lugar por el precio (de forma descendente). 
+Devuelve una lista con las 5 primeras filas de la tabla fabricante. 
+Devuelve una lista con 2 filas a partir de la cuarta fila de la tabla fabricante. La cuarta fila también se debe incluir en la respuesta. 
+Lista el nombre y el precio del producto más barato (utiliza solamente las cláusulas ORDER BY y LIMIT). 
+Lista el nombre y el precio del producto más caro. (utiliza solamente las cláusulas ORDER BY y LIMIT). 
+Lista el nombre y el precio del segundo producto más caro (utiliza solamente las cláusulas ORDER BY, LIMIT y OFFSET).
+Lista el nombre de todos los productos del fabricante cuyo código de fabricante es igual a 2. 
+Lista el nombre y el precio de los productos que tienen un precio menor o igual a 120€. 
+Lista el nombre y el precio de los productos que tienen un precio mayor o igual a 400€. 
+Lista el nombre y el precio de los productos que no tienen un precio mayor o igual a 400€. 
+Lista el nombre de los productos que tengan un precio entre 80€ y 300€. Sin utilizar el operador BETWEEN. 
+Lista el nombre de los productos que tengan un precio entre 60€ y 200€. Utilizando el operador BETWEEN. 
+Lista el nombre de los productos que tengan un precio mayor que 200€ y cuyo código de fabricante sea igual a 6. 
+Lista el nombre y el precio de los productos cuyo código de fabricante sea 1, 3 ó 5. Sin utilizar el operador IN.
+Lista el nombre y el precio de los productos cuyo código de fabricante sea 1, 3 ó 5. Utilizando el operador IN. 
+Lista el nombre y el precio de todos los productos, en céntimos. Crea un alias para la columna que contenga el precio, que se llame “céntimos”. 
+Lista los nombres de los fabricantes que empiecen por la letra ‘S’. 
+Lista los nombres de los fabricantes que terminen por la vocal ‘e’. 
+Lista los nombres de los fabricantes que contengan el carácter ‘w’. 
+Lista los nombres de los fabricantes cuyo nombre sea de 4 caracteres. 
+Devuelve una lista con el nombre de todos los productos que contengan la cadena “Portátil” en el nombre. 
+Devuelve una lista con el nombre de todos los productos que contengan la cadena “Monitor” en el nombre y tengan un precio inferior a 215 €. 
+Lista el nombre y el precio de todos los productos que tengan un precio mayor o igual a 180€. Ordena el resultado en primer lugar por el precio (en orden descendente) y en segundo lugar por el nombre (en orden ascendente).

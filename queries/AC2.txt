@@ -1,0 +1,22 @@
+Calcula el número total de productos que hay en la tabla productos.
+Calcula el número total de fabricantes que hay en la tabla fabricante.
+Calcula la media del precio de todos los productos.
+Calcula el precio más barato de todos los productos.
+Calcula el precio más caro de todos los productos.
+Lista el nombre y el precio del producto más barato.
+Lista el nombre y el precio del producto más caro.
+Calcula la suma de los precios de todos los productos.
+Calcula el número de productos que tiene el fabricante cuyo código es 1.
+Calcula la media del precio de todos los productos del fabricante cuyo código es 1.
+Calcula el precio más barato de todos los productos del fabricante cuyo código es 1.
+Calcula el precio más caro de todos los productos del fabricante cuyo código es 1.
+Calcula la suma de todos los productos del fabricante cuyo código es 1.
+Muestra el precio máximo, precio mínimo, precio medio y el número total de productos que tiene el fabricante cuyo código es 6.
+Calcula el número de productos que tienen un precio mayor o igual a 180€.
+Muestra el número total de productos que tiene cada uno de los fabricantes. El resultado mostrará dos columnas, una con el código del fabricante y otra con el número de productos que tiene. Ordene el resultado descendentemente por el número de productos.
+Muestra el precio máximo, precio mínimo y precio medio de los productos de cada uno de los fabricantes. El resultado mostrará el código del fabricante junto con los datos que se solicitan.
+Muestra el código de cada fabricante, junto con el precio máximo, precio mínimo, precio medio y el número total de productos de los fabricantes que tienen un precio medio superior a 200€.
+Calcula el número de productos que tiene cada fabricante con un precio mayor o igual a 180€.
+Devuelve un listado con los códigos de los fabricantes que tienen 2 o más productos.
+Devuelve un listado con los códigos de los fabricantes donde la suma del precio de todos sus productos es superior a 1000 €.
+Muestre un listado de la suma total de precios (de los productos que no sean monitores) por cada fabricante. Elimina de los resultados aquellos cuya suma total sea inferior a 300 euros, y ordénalos de mayor a menor.

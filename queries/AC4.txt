@@ -1,0 +1,22 @@
+Devuelve nombre , apellidos y email (4 columnas) del director general de la empresa.
+Devuelve un listado con el nombre, apellidos y puesto (4 columnas) de aquellos empleados que no sean representantes de ventas.
+Devuelve un listado con el nombre (1 columna) de los todos los clientes españoles.
+Devuelve un listado con los distintos estados por los que puede pasar un pedido.
+Devuelve un listado con el código de cliente (1 columna) de aquellos clientes que realizaron algún pago en 2008. Ten en cuenta que deberá eliminar aquellos códigos de cliente que aparezcan repetidos. Resuelve la consulta utilizando la función YEAR de MySQL.
+Devuelve un listado con el código de cliente de aquellos clientes que realizaron algún pago en 2008. Ten en cuenta que deberá eliminar aquellos códigos de cliente que aparezcan repetidos. Sin utilizar ninguna de las funciones de fechas de MySQL.
+Devuelve un listado con el código de pedido, código de cliente, fecha esperada y fecha de entrega de los pedidos que no han sido entregados.
+Devuelve un listado con el código de pedido, código de cliente, fecha esperada y fecha de entrega de los pedidos cuya fecha de entrega ha sido al menos dos días antes de la fecha esperada. Utilizando la función ADDDATE de MySQL.
+Devuelve un listado con el código de pedido, código de cliente, fecha esperada y fecha de entrega de los pedidos cuya fecha de entrega ha sido al menos dos días antes de la fecha esperada. Utilizando la función DATEDIFF  de MySQL.
+Devuelve un listado con los códigos de los productos y su estoc de aquéllos productos que pertenecen a la gama Ornamentales y que tienen más de 100 unidades en stock. El listado deberá estar ordenado por el codigo de producto (de menor a mayor).
+Obtén un listado con el nombre de cada cliente y el nombre y primer apellido de su representante de ventas (3 columnas). Ordena los resultados alfabéticamente por el nombre del cliente.
+Obtén un listado con el nombre de cada cliente y el nombre y primer apellido de su representante de ventas, seguido de la oficina a la que pertencece (ciudad). En total deben aparecer 4 columnas en el resultado. Ordena los resultados alfabéticamente por el nombre del cliente.
+Muestra el nombre de los clientes que hayan realizado pagos. Ordena alfabéticamente por el nombre de cliente.
+Muestra el nombre de los clientes que NO hayan realizado pagos, ordenados alfabéticamente. Debe usarse una composición externa.
+Devuelve el nombre de los clientes que han hecho pagos y el nombre y apellidos de sus representantes de ventas (concatenados). Ordena por el nombre de cliente (alfabéticamente).
+Devuelve el nombre de los clientes que han hecho pagos, el nombre y apellidos de su representante de ventas (concatenados) y la ciudad de la oficina a la que pertenecen. Ordena por el nombre de cliente (alfabéticamente).
+Devuelve un listado con el nombre completo de los empleados junto con el nombre completo de sus jefes. El listado debe mostrarse a dos columnas: "nombreEmpleado" y "nombreJefe".
+Devuelve un listado que muestre el nombre de cada empleados, el nombre de su jefe y el nombre del jefe de sus jefe. El listado debe mostrarse a tres columnas: "nombreEmpleado, "nombreJefe" y "nombreJefazo".
+Devuelve el nombre de los clientes que tienen pedidos pendientes. Ordena alfabéticamente por el nombre de cliente.
+Devuelve un listado con el número de productos que hay en cada gama, y su precio de venta medio (2 decimales). El resultado debe ordenarse alfabéticamente por la gama.
+Devuelve un listado con el número de unidades que se han vendido de cada producto. El resultado debe ordenarse de mayor a menor número de unidades vendidas, y luego alfabéticamente por el otro campo.
+Devuelve un listado con el número de unidades que se han vendido de cada gama. El resultado debe ordenarse de mayor a menor número de unidades vendidas.
